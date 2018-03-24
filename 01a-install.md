@@ -52,6 +52,7 @@ However, this is completely optional as Anaconda is an all-in-one package manage
 Did you install Python 2 or 3? Why?  
 
 >> I installed Python 3. I personally like Python 3 more than Python 2.
+>> Python 3 uses more characters which makes it less ambiguous and more specific in some situations.
 
 ### Q2. Which Python Version Installed   
 
