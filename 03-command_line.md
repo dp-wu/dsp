@@ -20,7 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 1. show current working directory path: `pwd`
+>> 2. creating a directory: `mkdir`
+>> 3. deleting a directory: `rm`
+>> 4. creating a file using: `touch` command: `touch`
+>> 5. deleting a file: `rm -f`
+>> 6. renaming a file: `mv old_name new_name`
+>> 7. listing hidden files: `ls .?*`
+>> 8. copying a file from one directory to another: `cp from_directory to_directory`
+>> 9. listing long files including hidden files: `ls -al`
+>> 0. moving files from one directory to another: `mv from directory to_directory`
 
 ---
 
@@ -35,7 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>> `ls`: lists all files in the directory
+>> `ls -a`: displays all files
+>> `ls -l`: displays the long format listing
+>> `ls -lh`: shows sizes in human readable format
+>> `ls -lah`: lists all humen readables
+>> `ls -t`: displays newest files first (based on timestamp)
+>> `ls -Glp`: displays directories with / in a long listing, don't print group names
 
 ---
 
@@ -43,7 +58,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>> `-b`: Displays nonprinting characters in octal.
+>> `-c`: Displays files by file timestamp.
+>> `-d`: Displays only directories.
+>> `-f`: Interprets each name as a directory, not a file.
+>> `-g`: Displays the long format listing, but exclude the owner name.
 
 ---
 
@@ -51,7 +70,14 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>> It converts input from standard input into arguments to a command. [wikipedia](https://en.wikipedia.org/wiki/Xargs 'xargs')
+
+>> `$ echo "splitXsplitXsplitXsplit" | gxargs -d X -n 2`
+>> `split split`
+>> `split split`
+>> # This example comes from _Linux Shell Scripting Cookbook - 3rd Edition_,
+>> # Using `gxargs` instead of `xargs` because mac os x doesn't have `-d` option to change the input delimiter.
+>> # `gxargs` requires installation of `findutils`
 
  
 
