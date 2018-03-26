@@ -44,13 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
->> `ls`: lists all files in the directory
->> `ls -a`: displays all files
->> `ls -l`: displays the long format listing
->> `ls -lh`: shows sizes in human readable format
->> `ls -lah`: lists all humen readables
->> `ls -t`: displays newest files first (based on timestamp)
->> `ls -Glp`: displays directories with / in a long listing, don't print group names
+>> + `ls`: lists all files in the directory
+>> + `ls -a`: displays all files
+>> + `ls -l`: displays the long format listing
+>> + `ls -lh`: shows sizes in human readable format
+>> + `ls -lah`: lists all humen readables
+>> + `ls -t`: displays newest files first (based on timestamp)
+>> + `ls -Glp`: displays directories with / in a long listing, don't print group names
 
 ---
 
@@ -58,11 +58,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
->> `-b`: Displays nonprinting characters in octal.
->> `-c`: Displays files by file timestamp.
->> `-d`: Displays only directories.
->> `-f`: Interprets each name as a directory, not a file.
->> `-g`: Displays the long format listing, but exclude the owner name.
+>> + `-b`: Displays nonprinting characters in octal.
+>> + `-c`: Displays files by file timestamp.
+>> + `-d`: Displays only directories.
+>> + `-f`: Interprets each name as a directory, not a file.
+>> + `-g`: Displays the long format listing, but exclude the owner name.
 
 ---
 
