@@ -72,12 +72,12 @@ What does `xargs` do? Give an example of how to use it.
 
 >> It converts input from standard input into arguments to a command. [wikipedia](https://en.wikipedia.org/wiki/Xargs 'xargs')
 
->> `$ echo "splitXsplitXsplitXsplit" | gxargs -d X -n 2`
->> `split split`
->> `split split`
->> This example comes from _Linux Shell Scripting Cookbook - 3rd Edition_,
->> Using `gxargs` instead of `xargs` because mac os x doesn't have `-d` option to change the input delimiter.
->> `gxargs` requires installation of `findutils`
+>> `$ echo "splitXsplitXsplitXsplit" | gxargs -d X -n 2`. 
+>> `split split`. 
+>> `split split`. 
+>> This example comes from _Linux Shell Scripting Cookbook - 3rd Edition_,  
+>> Using `gxargs` instead of `xargs` because mac os x doesn't have `-d` option to change the input delimiter.  
+>> `gxargs` requires installation of `findutils`. 
 
  
 
